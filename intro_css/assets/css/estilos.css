@@ -1,0 +1,64 @@
+/* Selector universal aplica a todos los elementos de la página*/
+*{
+    background-color: brown;
+}
+/* Selector de etiqueta */
+/* elemento HTML{
+
+} */
+
+/* Selector de clase */
+body{
+    background-color: burlywood;
+}
+.cuadro{
+    width: 100px;
+    height: 100px;   /*  No se van a mostrar si no hay contenido al cual aplicarse*/
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/* Selector de ID */
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(139, 179, 139, .6); /* alpha permite variar la opacidad */
+}
+
+/* !Important tiene la mayor jerarquía */
+
+.color{
+    background-color: rgb(206, 86, 0);
+}
+.color{
+    background-color: darkcyan;
+}
+
+.color{
+    background-color: darkgoldenrod;
+}
+
+.color-texto{
+    color:white;
+    background-color: darkolivegreen;
+}
+
+.forma{
+    height: 100px;
+    width: 300px;
+}
+
+.borde{
+    border: 3px solid black;
+   /*  border-top: 3px dotted purple;
+    border-right: 3px dashed blue;
+    border-bottom: 3px groove green;    
+    border-left: 3px double black; */
+    text-align: center;
+    line-height: 100px;
+}
+p{
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+    font-weight: 100;
+}

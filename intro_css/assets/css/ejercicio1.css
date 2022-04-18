@@ -1,0 +1,14 @@
+.color-texto{
+    color: black;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.p{
+    background-color: hotpink;
+}
+
+p{
+    background-color: tomato;
+    border: ;
+}
