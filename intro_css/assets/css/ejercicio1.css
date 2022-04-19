@@ -1,14 +1,59 @@
-.color-texto{
+.Titulo{
     color: black;
-    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 40px;
+    
+}
+
+.Titulo2{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace ;
     font-size: 40px;
 }
-
-.p{
-    background-color: hotpink;
+.ej1{
+    background-color: rgb(238, 130, 238);
+    width: 500px;
+    height: 30px;
+    margin: 15px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
+}
+.ej2{
+    background-color: #EB7F3A;
+    border:2px solid #B34F1C;
+    width: 500px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
 }
 
-p{
-    background-color: tomato;
-    border: ;
+.ej3{
+    background-color: #F7F5F5;
+    border-left: 5px solid #E62E87;
+    width: 500px;
+    height: 30px;
+    margin: 15px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
+}
+
+.ej4{
+    background-color: #F7F5F5;
+    border-top: solid #F0A6CF;
+    border-bottom: solid #F0A6CF ;
+    width: 500px;
+    height: 30px;
+    margin: 15px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
 }
