@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+table, th, td, tr{
+    border: 1px solid black;
+    border-style: double;
+  border-collapse: separate;
+  margin: 0 auto;
+}
+
+.Rojo{
+    color: red;
+}
+.Negritas{
+    font-weight: bold;
+}
+
+.Cursiva{
+    font-style: italic;
+}
+
+.Naranja{
+    background-color: rgb(210, 105, 30);
+}
+.Amarillo{
+    color: yellow;
+}
+.Negro{
+    background-color: black;
+}
+
+.Limón{
+    background-color: rgb(127, 255, 0);
+}

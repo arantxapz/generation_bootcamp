@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(45, 134, 82);
+}
+
+h1{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.T1{
+font-style: italic;
+color: white;
+}
+
+.T2{
+color: antiquewhite;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.T3{
+color: rgb(206, 148, 58);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.T4{
+font-style: italic;
+color: white;    
+}
+
+.T5{
+color: rgb(206, 148, 58);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.T6{
+color: rgb(188, 52, 77);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font: bolder;
+}
+
+.T7{
+color: antiquewhite;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.T8{
+color: rgb(188, 52, 77);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font: bolder;
+}

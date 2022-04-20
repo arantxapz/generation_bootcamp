@@ -1,0 +1,54 @@
+
+/* px se recomienda para: el tamaño de fuente o del body */
+
+/* 
+1200px- PC
+750px- Tablet
+450px- Celular
+ */
+
+ /* Unidades de medida reltivas 
+ %
+ Rem- tamaño de fuente que tenemos por defecto 1 Rem= tamaño de px de nuestro navegador
+ Em- tamaño de fuente del elemento padre 
+ vh- viewport height
+ vw- viewport width
+ */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0 ;
+}
+.forma{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.color{
+    background-color: brown;
+    border: 5px solid black;
+}
+
+p{
+    padding: 20px;
+    border: 2px solid black;
+    margin: 0;
+}
+
+a{
+    width: 50%;
+    padding: 10px;
+    border: 3px solid red;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}

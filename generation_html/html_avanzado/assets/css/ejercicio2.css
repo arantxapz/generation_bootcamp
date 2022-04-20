@@ -1,0 +1,32 @@
+
+.formulario{
+    background-color: green;
+    width: 400px;
+    border: 10px solid aquamarine;
+    padding: 5px ;
+    border-radius: 5px;
+    margin: 0 auto;
+    }
+
+.cajita{
+    border-color: red;
+    width: 200px;
+}
+
+h6{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 35px;
+}
+
+.datos, p{
+    color: white;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 15px;
+    margin-left: 50px;
+}
+.boton{
+    margin-left: 55px;
+    margin
+}

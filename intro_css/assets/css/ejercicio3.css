@@ -1,0 +1,37 @@
+
+body{
+   background-color: rgb(198, 217, 238);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+   line-height: 2;
+}
+
+h1{
+font-family: monospace;
+font-size: 40px;
+}
+
+.Comic,.microsoft, .Windows, .Windows2{
+   color: rgb(204, 140, 30);
+   font-weight: bold;
+   }
+
+.año, .año2, .año3, .año4{
+   color: darkorange;
+}
+
+.diseñador, .comic1, .comic2, .revista{
+   color: green;
+   background-color: white;
+   font-style: italic;
+}
+
+.wplus,.w98, .publi, .IE,.MS{
+   color: rgb(204, 140, 30);
+   font-weight: bold;
+}
+
+
+
+
+
