@@ -1,0 +1,42 @@
+body{
+    position: relative;
+}
+
+.cuadro{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+   /*  display: inline-block; */
+}
+
+/* bottom
+top
+left
+right
+ */
+
+ h1{
+   /*   position: relative;
+     top: 100px;
+     /* z-index: -1;*/
+ }
+.div1{
+    background-color: darkorchid;
+    position: static;
+    bottom: 100px;
+}
+
+.div2{
+    background-color: hotpink;
+    position: sticky;
+   bottom: 0;
+}
+.div3{
+    background-color: cornflowerblue;
+}
+
+.padre{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
