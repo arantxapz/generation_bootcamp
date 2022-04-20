@@ -13,6 +13,10 @@
     width: 200px;
 }
 
+label{
+    display: inline-block;
+}
+
 h6{
     color: white;
     font-family: 'Times New Roman', Times, serif;
