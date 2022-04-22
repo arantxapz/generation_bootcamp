@@ -1,0 +1,39 @@
+.padre{
+    width: 80%;
+    height: 60vh;
+    border: 1px solid blueviolet;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    justify-content: space-around;
+}
+
+/* row
+justify content acomoda elementos horizontalmente (izq-der)
+align items acomoda verticalmente (arriba-abajo)
+
+column
+justify content acomoda elementos verticalmente (arriba-abajo)
+align items acomoda horizontalmente (izq-der) 
+
+*/
+
+.hijo{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    }
+
+.div1{
+    background-color: darkslateblue;
+}
+
+.div2{
+    background-color: dodgerblue;
+}
+
+.div3{
+    background-color: indianred;
+}
