@@ -20,9 +20,18 @@ public class TipoPlanta extends Pokemon{
 		System.out.println(getNombre() + " está envenenando");
 	}
 	
+	public void atacar() {
+		System.out.println(getNombre() + "está atacando");
+	}
 	//getters y setters
 	public int numeroHojas(){
 	return numeroHojas;
 		
 }
+
+	@Override //método únicamente para los hijos
+	public void saludar(String mensaje) {
+		System.out.println(mensaje);
+		
+	}
 }

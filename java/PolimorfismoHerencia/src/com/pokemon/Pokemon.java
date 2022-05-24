@@ -1,6 +1,6 @@
 package com.pokemon;
 
-public class Pokemon {
+public abstract class Pokemon {
 	//atributos
 	private int id;
 	private int edad;
@@ -29,6 +29,9 @@ public class Pokemon {
 	public void dormir() {
 		System.out.println(nombre + " Zzzzzz");
 	}
+	
+	//metodo abstracto- no permite instanciar 
+	public abstract void saludar(String mensaje);
 
 	
 	//Getter y setters: encapsulamiento
